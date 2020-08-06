@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__bar > nav > ul > li > a {
+    color: rgb(226, 225, 225);
+}
+.nav__bar > nav > ul > li > a:hover {
+    color: white;
+    transition: 200ms ease-in-out;
+}
+.store-home{
+    display: flex;
+    color: white;
+    background-color: rgb(68, 68, 68);
+    padding: 12px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.75px;
+}
+.store-home a {
+    color: white;
+}
+.store-home a:hover{
+    color: rgb(102, 187, 255);
+    cursor: pointer;
+}
+.edu {
+    display: flex;
+    padding-left: 11%;
+}
+
+.edu-home{
+    padding-right: 10px;
+    border-right: 1px rgb(131, 128, 128) solid;
+    margin-right: 10px;
+}
+
+.nav__bar{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(51, 51, 51);
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+.nav_items{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-sub-text{
+    background-color: #dedede;
+    text-align: center;
+    padding: 10px;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+.fas, 
+.fab{
+    font-size: 1.2em;
+}
