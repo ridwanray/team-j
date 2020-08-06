@@ -1,7 +1,12 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    margin-right: 0 !important;
+    padding: 0 ;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #eeeeee;
 }
 
 li{
@@ -58,6 +63,7 @@ a {
     padding: 12px;
     display: flex;
     justify-content: space-between;
+    margin: 0 !important;
 }
 .header-sub-text{
     background-color: #dedede;
@@ -72,4 +78,36 @@ a {
 .fas, 
 .fab{
     font-size: 1.2em;
+}
+/* Style for the "Buy an iPad. Get AirPods." segment */
+.red {
+    color: #bf4800;
+}
+.cardimg{
+    height: 271px;
+    width: 283px;
+    padding: 1em;
+}
+.cardbox {
+    padding: 100px 0;
+
+}
+.card {
+    width: 350px;
+    margin: 0.3em;
+    padding: 3em;
+}
+.card1 {
+    font-size: 1.28em;
+    line-height: 1.8em;
+    border-radius: 6% 0 0 0; 
+}
+.card3{
+    border-radius: 0 6% 0 0;
+}
+.card4 {
+    border-radius: 0 0 0 6%;
+}
+.card6 {
+    border-radius: 0 0 6% 0;
 }
