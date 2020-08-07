@@ -1,0 +1,15 @@
+article{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+
+
+footer {
+  position: fixed;
+  justify-content: center;
+  padding: 2px;
+  background-color: #c7b198
+
+}
