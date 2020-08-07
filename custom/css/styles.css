@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    margin-right: 0 !important;
     padding: 0 ;
     box-sizing: border-box;
 }
@@ -42,11 +41,11 @@ a:hover {
     display: flex;
     color: white;
     background-color: rgb(68, 68, 68);
-    padding-top: 12px;
-    padding-left: 12px;
-    height: 7vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 7vh; */
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-size: 12px;
+    font-size: 11.65px;
     letter-spacing: 0.75px;
 }
 .store-home a {
@@ -65,9 +64,12 @@ a:hover {
     padding-right: 10px;
     border-right: 1px rgb(131, 128, 128) solid;
     margin-right: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .edu-exit{
-    padding-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .nav__bar{
@@ -76,8 +78,8 @@ a:hover {
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     font-size: 15px;
     font-style: normal;
-    padding-left: 11%;
-    padding-right: 11%;
+    padding-left: 10%;
+    padding-right: 10%;
     letter-spacing: -.022em;
     line-height: 1.47059;
     font-weight: 400;
@@ -86,18 +88,23 @@ a:hover {
     padding: 12px;
     display: flex;
     justify-content: space-between;
-    margin: 0 !important;
+    margin-bottom: 0 !important;
+    
 }
 .header-sub-text{
     background-color: #dedede;
     text-align: center;
-    height: 5.5vh;
+    
     padding-top: 7px;
+    
     font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 12px;
     color: rgb(51, 51, 51);
     font-weight: 400;
     letter-spacing: 0.04em;
+}
+.header-sub-text > p {
+    padding-bottom: 8px;
 }
 .fas, 
 .fab{
@@ -105,6 +112,9 @@ a:hover {
 }
 
 /* Style for the "Buy an iPad. Get AirPods." segment */
+.products{
+    margin-right: 0 !important;
+}
 .red {
     color: #bf4800;
 }
@@ -136,3 +146,32 @@ a:hover {
 .card6 {
     border-radius: 0 0 6% 0;
 }
+
+
+/* footer article atyling */
+
+article{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  .footnotes{
+      font-size: 12px;
+      font-family: SF Pro Text,Myriad Set Pro,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+      color: #86868b;
+  }
+  article p {
+      /* padding-bottom: 4px; */
+  }
+  article ol {
+      padding: 0px 17px;
+  }
+  article li {
+      padding-bottom: 0.8em;
+  }
+  footer {
+    /* position: fixed; */
+    justify-content: center;
+    padding: 2px;
+    /* background-color: #c7b198 */
+  }
