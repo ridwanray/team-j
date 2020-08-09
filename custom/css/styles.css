@@ -140,6 +140,18 @@ a:hover {
     }
     
 }
+@media screen and (max-width: 560px ){
+    .nav_items{
+        
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nav__bar{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.7em;
+    }
+}
     
 .header-sub-text{
     background-color: #dedede;
