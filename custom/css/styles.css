@@ -237,3 +237,23 @@ article{
     padding: 2px;
     /* background-color: #c7b198 */
   }
+
+  /* style for the landing part */
+  .card-ac{
+    text-align: center;
+    padding: 0 100px;
+  }
+
+  .card-ac h1 {
+      font-size: 5em;
+  }
+
+  .card-ac p{
+      font-size: 1.2em;
+  }
+
+  .card-ac1{
+    display: block;
+    margin: auto;
+    width: 1000px;
+  }
