@@ -110,9 +110,9 @@ a:hover {
         list-style-type: none;
     }
     .nav_items > li:hover{
-        transform: translateX(10px);
+        transform: translateX(7px);
         transition: 300ms ease-in-out;
-        background-color: rgba(0, 0, 0, 0.247);
+        background-color: rgba(0, 0, 0, 0.034);
     }
     
 }
@@ -134,9 +134,9 @@ a:hover {
         list-style-type: none;
     }
     .nav_items > li:hover{
-        transform: translateX(10px);
+        transform: translateX(7px);
         transition: 300ms ease-in-out;
-        background-color: rgba(0, 0, 0, 0.247);
+        background-color: rgba(0, 0, 0, 0.034);
     }
     
 }
