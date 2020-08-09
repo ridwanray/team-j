@@ -84,13 +84,39 @@ a:hover {
     line-height: 1.47059;
     font-weight: 400;
 }
+
 .nav_items{
     padding: 12px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0 !important;
+    margin-bottom: 0 !important;  
+}
+
+@media screen and (max-width: 375px ){
+    .nav_items{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nav__bar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     
 }
+@media screen and (max-width: 420px ){
+    .nav_items{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .nav__bar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 .header-sub-text{
     background-color: #dedede;
     text-align: center;
